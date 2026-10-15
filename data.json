@@ -1,0 +1,193 @@
+{
+  "updated": "Oct 15, 2026 04:44 PM ET",
+  "stocks": [
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line",
+      "price": 15.39,
+      "change_pct": 3.5
+    },
+    {
+      "symbol": "LYFT",
+      "name": "Lyft",
+      "price": 17.16,
+      "change_pct": 4.13
+    },
+    {
+      "symbol": "CRWV",
+      "name": "CoreWeave",
+      "price": 69.69,
+      "change_pct": 5.94
+    },
+    {
+      "symbol": "SPY",
+      "name": "S&P 500 (SPY)",
+      "price": 771.79,
+      "change_pct": 0.28
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq (QQQ)",
+      "price": 728.0,
+      "change_pct": -0.13
+    },
+    {
+      "symbol": "CL=F",
+      "name": "WTI Oil",
+      "price": 96.2,
+      "change_pct": 1.17
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "price": 82290.49,
+      "change_pct": 0.89
+    }
+  ],
+  "homes": {
+    "updated": "2026-10-15",
+    "area": "Near DuPont Country Club, Wilmington DE 19803",
+    "listings": [
+      {
+        "street": "708 Sudbury Rd",
+        "price": 850000,
+        "beds": 5,
+        "baths": "2.5",
+        "sqft": 3125,
+        "neighborhood": "Edenridge",
+        "miles_from_club": 0.69,
+        "first_seen": "2026-10-15",
+        "open_house": "10/18",
+        "zillow": "https://www.zillow.com/homedetails/708-Sudbury-Rd-Wilmington-DE-19803/72988720_zpid/",
+        "featured": true
+      },
+      {
+        "street": "607 Berwick Rd",
+        "price": 750000,
+        "beds": 4,
+        "baths": "3.5",
+        "sqft": 3489,
+        "neighborhood": null,
+        "miles_from_club": 0.72,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/607-Berwick-Rd-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "306 Spalding Rd",
+        "price": 575000,
+        "beds": 4,
+        "baths": "2.5",
+        "sqft": 2100,
+        "neighborhood": null,
+        "miles_from_club": 0.78,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/306-Spalding-Rd-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "303 Spalding Rd",
+        "price": 685000,
+        "beds": 5,
+        "baths": "2.5",
+        "sqft": 2475,
+        "neighborhood": null,
+        "miles_from_club": 0.83,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/303-Spalding-Rd-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "710 Cardiff Rd",
+        "price": 650000,
+        "beds": 6,
+        "baths": "4.0",
+        "sqft": 3059,
+        "neighborhood": null,
+        "miles_from_club": 0.96,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/710-Cardiff-Rd-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "5 York Rd",
+        "price": 430000,
+        "beds": 3,
+        "baths": "2.0",
+        "sqft": 1725,
+        "neighborhood": null,
+        "miles_from_club": 1.06,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/5-York-Rd-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "6 Woodrow Ave",
+        "price": 459900,
+        "beds": 3,
+        "baths": "2.0",
+        "sqft": 1292,
+        "neighborhood": null,
+        "miles_from_club": 1.1,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/6-Woodrow-Ave-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "2202 Amhurst Rd",
+        "price": 459900,
+        "beds": 4,
+        "baths": "2.0",
+        "sqft": 2050,
+        "neighborhood": null,
+        "miles_from_club": 1.13,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/2202-Amhurst-Rd-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "42 Hurst Rd",
+        "price": 440000,
+        "beds": 3,
+        "baths": "2.0",
+        "sqft": 1910,
+        "neighborhood": null,
+        "miles_from_club": 1.18,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/42-Hurst-Rd-Wilmington-DE-19803_rb/",
+        "featured": false
+      },
+      {
+        "street": "109 Cleveland Ave",
+        "price": 530000,
+        "beds": 4,
+        "baths": "3.0",
+        "sqft": 2940,
+        "neighborhood": null,
+        "miles_from_club": 1.27,
+        "first_seen": "2026-10-12",
+        "open_house": null,
+        "zillow": "https://www.zillow.com/homes/109-Cleveland-Ave-Wilmington-DE-19803_rb/",
+        "featured": false
+      }
+    ]
+  },
+  "trip": {
+    "updated": "2026-10-15",
+    "title": "Orlando family trip",
+    "dates": "Dec 26, 2026 \u2013 Jan 2, 2027",
+    "from": "PHL \u2192 MCO",
+    "cheapest_nonstop_total": 3435,
+    "cheapest_any_total": 1995,
+    "note": "Totals for 5 travelers. Updated by watcher.",
+    "url": "https://www.google.com/travel/flights/search?tfs=EAAaHhIKMjAyNi0xMi0yNmoHCAESA1BITHIHCAESA01DTxoeEgoyMDI3LTAxLTAyagcIARIDTUNPcgcIARIDUEhMQAFAAUACQAJAAkgBmAEB&curr=USD&hl=en"
+  }
+}

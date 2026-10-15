@@ -1,0 +1,8 @@
+const $=id=>document.getElementById(id),usd=n=>n==null?'—':'$'+Number(n).toLocaleString(undefined,{maximumFractionDigits:2});
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
+$('updated').textContent='Last updated: '+(d.updated||'pending');
+$('stocks').innerHTML=d.stocks.map(s=>{const c=s.change_pct,cl=c>=0?'up':'down';return `<div class="card"><div class="sym">${s.symbol}</div><div class="nm">${s.name}</div><div class="px">${usd(s.price)}</div><div class="${cl}">${c==null?'':(c>=0?'+':'')+c.toFixed(2)+'%'}</div></div>`}).join('');
+const h=d.homes;$('homes-area').textContent=`${h.area} · as of ${h.updated}`;
+$('homes').innerHTML=h.listings.map(l=>`<div class="card home${l.featured?' feat':''}"><div><a href="${l.zillow}" target="_blank" rel="noopener">${l.street}</a>${l.featured?'<span class="badge">Featured</span>':''}<div class="meta">${l.beds||'?'} bd · ${l.baths||'?'} ba · ${l.sqft?l.sqft.toLocaleString()+' sqft':''}${l.neighborhood?' · '+l.neighborhood:''}${l.miles_from_club!=null?' · '+l.miles_from_club+' mi':''}${l.open_house?' · Open '+l.open_house:''}</div></div><div class="price">${usd(l.price)}</div></div>`).join('');
+const t=d.trip;$('trip').innerHTML=`<div class="card"><div class="sym">${t.title}</div><div class="meta">${t.dates} · ${t.from}</div><div class="px">Cheapest nonstop: ${usd(t.cheapest_nonstop_total)}</div><div class="meta">Cheapest any: ${usd(t.cheapest_any_total)} · ${t.note} (as of ${t.updated})</div>${t.url?`<a href="${t.url}" target="_blank" rel="noopener">Google Flights →</a>`:''}</div>`;
+}).catch(e=>$('updated').textContent='Failed to load data');
