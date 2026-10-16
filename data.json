@@ -1,5 +1,5 @@
 {
-  "updated": "Oct 15, 2026 06:45 PM ET",
+  "updated": "Oct 16, 2026 08:00 AM ET",
   "stocks": [
     {
       "symbol": "NCLH",
@@ -34,14 +34,14 @@
     {
       "symbol": "CL=F",
       "name": "WTI Oil",
-      "price": 96.15,
-      "change_pct": 1.11
+      "price": 96.49,
+      "change_pct": -1.51
     },
     {
       "symbol": "BTC-USD",
       "name": "Bitcoin",
-      "price": 82382.23,
-      "change_pct": 1.01
+      "price": 82519.72,
+      "change_pct": 0.46
     }
   ],
   "homes": {
