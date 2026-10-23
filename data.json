@@ -1,47 +1,47 @@
 {
-  "updated": "Oct 22, 2026 08:03 AM ET",
+  "updated": "Oct 23, 2026 08:01 AM ET",
   "stocks": [
     {
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line",
-      "price": 15.59,
-      "change_pct": -0.38
+      "price": 15.54,
+      "change_pct": -0.32
     },
     {
       "symbol": "LYFT",
       "name": "Lyft",
-      "price": 16.79,
-      "change_pct": -2.67
+      "price": 17.43,
+      "change_pct": 3.81
     },
     {
       "symbol": "CRWV",
       "name": "CoreWeave",
-      "price": 61.82,
-      "change_pct": -0.5
+      "price": 55.6,
+      "change_pct": -10.06
     },
     {
       "symbol": "SPY",
       "name": "S&P 500 (SPY)",
-      "price": 773.09,
-      "change_pct": 0.53
+      "price": 763.96,
+      "change_pct": -1.18
     },
     {
       "symbol": "QQQ",
       "name": "Nasdaq (QQQ)",
-      "price": 725.2,
-      "change_pct": 1.05
+      "price": 704.47,
+      "change_pct": -2.86
     },
     {
       "symbol": "CL=F",
       "name": "WTI Oil",
-      "price": 99.44,
-      "change_pct": 2.36
+      "price": 100.82,
+      "change_pct": 1.36
     },
     {
       "symbol": "BTC-USD",
       "name": "Bitcoin",
-      "price": 81658.87,
-      "change_pct": -2.8
+      "price": 81538.41,
+      "change_pct": 0.28
     }
   ],
   "homes": {
